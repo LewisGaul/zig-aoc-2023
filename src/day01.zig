@@ -1,3 +1,7 @@
+// Generated from template/template.zig.
+// Run `zig build generate` to update.
+// Only unmodified days will be updated.
+
 const std = @import("std");
 const Allocator = std.mem.Allocator;
 const List = std.ArrayList;
@@ -9,10 +13,6 @@ const util = @import("util.zig");
 const gpa = util.gpa;
 
 const data = @embedFile("data/day01.txt");
-
-pub fn main() !void {
-    
-}
 
 // Useful stdlib functions
 const tokenizeAny = std.mem.tokenizeAny;
@@ -41,6 +41,7 @@ const sort = std.sort.block;
 const asc = std.sort.asc;
 const desc = std.sort.desc;
 
-// Generated from template/template.zig.
-// Run `zig build generate` to update.
-// Only unmodified days will be updated.
+
+pub fn main() !void {
+    print("Running day01...\n", .{});
+}
